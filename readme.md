@@ -21,7 +21,7 @@ The usermode program handles registry keys and common tracking files.</p>
 <h3 style="font-size:10vw;">About Usage!</h3>
 <p> All responsibility belongs to the user. </p>
 	
-<h4 style="font-size:10vw;">Credits</h4>
+<h4 style="font-size:10vw;">Credits</h4> 
 <p> Kernel: https://github.com/btbd/hwid <br>
 ImGui: https://github.com/ocornut/imgui</p>
 	
