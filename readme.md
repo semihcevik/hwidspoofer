@@ -5,8 +5,9 @@
 
 A Windows HWID (Hardware Identification) spoofer designed to modify hardware identifiers and clean tracking traces.  
 **Use at your own risk. Intended for educational/research purposes only.**
-This project showcases my programming skills, problem-solving abilities, and interest in different areas of expertise.
+
 ---
+This project showcases my programming skills, problem-solving abilities, and interest in different areas of expertise.
 
 ## Features
 
