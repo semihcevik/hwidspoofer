@@ -1,31 +1,71 @@
+# HWID Spoofer
 
+![Windows](https://img.shields.io/badge/Platform-Windows-blue) 
+![x64](https://img.shields.io/badge/Architecture-x64-green)
 
-<!DOCTYPE html>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<body>
+A Windows HWID (Hardware Identification) spoofer designed to modify hardware identifiers and clean tracking traces.  
+**Use at your own risk. Intended for educational/research purposes only.**
+This project showcases my programming skills, problem-solving abilities, and interest in different areas of expertise.
+---
 
-<h1 style="font-size:10vw;">HWID Spoofer</h1>
+## Features
 
-<p style="font-size:5vw;">
-• A HWID spoofer for Windows. Tested on x64 Windows 10 1507 (10240), 1809 (17763.379), 1903 (18362.30 and 18362.175).
+### Kernel Driver (Credits: [btbd/hwid](https://github.com/btbd/hwid))
+- Spoofs identifiers for:
+  - Disks and volumes
+  - Network Interface Cards (NIC) and ARP tables
+  - SMBIOS (motherboard, BIOS, etc.)
+  - Boot identifiers
+  - GPU information
 
-• There may be some functionality on lower Windows versions, but it was not tested.
+### Usermode Program
+- Cleans registry traces related to hardware information and driver mappings
+- Removes common tracking files
+- **ImGui-based GUI** for user-friendly interaction
 
-• The driver handles disk, volume, NIC (+ ARP), SMBIOS, boot, and GPU identifiers.
-The usermode program handles registry keys and common tracking files.</p>
+---
 
-<h2 style="font-size:10vw;">What it includes?</h2>
-<p> Game AC traces cleaner, driver loader ( using gdrv.sys ), ImGui Base</p>
-	
-<h3 style="font-size:10vw;">About Usage!</h3>
-<p> All responsibility belongs to the user. </p>
-	
-<h4 style="font-size:10vw;">Credits</h4> 
-<p> Kernel: https://github.com/btbd/hwid <br>
-ImGui: https://github.com/ocornut/imgui</p>
-	
-</body>
-</html>
-	
-	
+## ⚠️ Disclaimer
+- This tool is provided **as-is** with no warranties. 
+- Misuse for unethical or illegal activities (e.g., bypassing bans, license evasion) is strictly prohibited.
+- The author and contributors assume **no responsibility** for damages, bans, or legal consequences arising from its use.  
+**By using this software, you accept all risks and liabilities.**
+
+---
+
+## Compatibility
+- Tested on **x64 Windows 10**:
+  - Version 1507 (Build 10240)
+  - Version 1809 (Build 17763.379)
+  - Version 1903 (Builds 18362.30 and 18362.175)
+- Partial functionality may work on older versions (untested).
+
+---
+
+## Usage
+1. **Requirements**:
+   - Administrator privileges
+   - Disable Secure Boot and Driver Signature Enforcement (for driver loading)
+2. Run the usermode program (GUI) to:
+   - Spoof hardware IDs
+   - Clean registry and tracking files
+3. Reboot to apply changes.
+
+**Note**: Antivirus software may flag this tool due to its low-level system access. Use in a controlled environment.
+
+---
+
+## Credits
+- **Kernel Driver**: Adapted from [btbd/hwid](https://github.com/btbd/hwid).  
+- **GUI**: Built with [Dear ImGui](https://github.com/ocornut/imgui).
+
+---
+
+## Legal
+This project is intended for **educational purposes only**. Reverse-engineering and security research help improve system understanding and defensive techniques. Always comply with local laws and terms of service.
+
+---
+
+## 📬 Contact
+For inquiries (employers or collaborators), contact:  
+[Your Email / LinkedIn / Portfolio Link]  
