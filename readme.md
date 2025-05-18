@@ -66,7 +66,3 @@ This project showcases my programming skills, problem-solving abilities, and int
 This project is intended for **educational purposes only**. Reverse-engineering and security research help improve system understanding and defensive techniques. Always comply with local laws and terms of service.
 
 ---
-
-## 📬 Contact
-For inquiries (employers or collaborators), contact:  
-[Your Email / LinkedIn / Portfolio Link]  
